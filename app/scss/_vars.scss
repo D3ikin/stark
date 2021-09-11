@@ -1,0 +1,37 @@
+$default: #ffffff;
+$accent: #00e096;
+$secondary: #038ee9;
+$border: #1d242c;
+
+%rfdewi-300{
+  font-family: 'RFDewiExpanded-Light', sans-serif;
+  font-weight: 300;
+}
+%rfdewi-400{
+  font-family: 'RFDewiExpanded-Regular', sans-serif;
+  font-weight: 400;
+}
+%rfdewi-600{
+  font-family: 'RFDewiExpanded-Semibold', sans-serif;
+  font-weight: 600;
+}
+%rfdewi-700{
+  font-family: 'RFDewiExpanded-Bold', sans-serif;
+  font-weight: 700;
+}
+%montserat-400{
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-weight: 400;
+}
+%montserat-italic{
+  font-family: 'Montserrat-Italic', serif;
+  font-weight: 400;
+}
+%montserat-500{
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 500;
+}
+%montserat-600{
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-weight: 600;
+}
