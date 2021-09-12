@@ -17,6 +17,11 @@ $(function(){
       $(".popup").fadeOut();
     }
   });
+
+  $('.btn-burger').on('click', function(){
+    $('.btn-burger').toggleClass('btn-burger--active')
+    $('.header-bottom').toggleClass('header-bottom--active')
+  });
   
 
   // $(".send_mail_form").submit(function() {
