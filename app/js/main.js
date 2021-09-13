@@ -1,4 +1,10 @@
 $(function(){
+  $(".header-bottom__list-link").on("click", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 300);
+  });
   $('.faq__item-trigger').on('click', function(){
     $(this).next('.faq__item-content').slideToggle(300);
   });
@@ -21,6 +27,10 @@ $(function(){
   $('.btn-burger').on('click', function(){
     $('.btn-burger').toggleClass('btn-burger--active')
     $('.header-bottom').toggleClass('header-bottom--active')
+  });
+  $(".header-bottom__list-link").click( function () {
+      $('.btn-burger').removeClass('btn-burger--active')
+      $('.header-bottom').removeClass('header-bottom--active')
   });
   
 

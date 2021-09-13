@@ -10,7 +10,7 @@ body {
   color: $default;
   background-color: #11161d;
   @extend %montserat-400;
-  background-image: url('../images/body-bg.svg');
+  background-image: url('../images/body-bg.svg');  
 }
 
 main {
@@ -175,7 +175,6 @@ section{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 370px;
     border: 2px solid $border;
     padding: 30px 25px;
     border-radius: 10px;
@@ -216,7 +215,8 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 58px;
+    min-width: 58px;
+    max-width: 58px;
     height: 58px;
     margin-bottom: 16px;
   }
