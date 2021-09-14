@@ -4,6 +4,7 @@
   font-style: normal;
   src: url('../fonts/RFDewiExpanded-Light.woff2') format('woff2'),
        url('../fonts/RFDewiExpanded-Light.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face{
@@ -12,6 +13,7 @@
   font-style: normal;
   src: url('../fonts/RFDewiExpanded-Regular.woff2') format('woff2'),
        url('../fonts/RFDewiExpanded-Regular.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face{
@@ -20,6 +22,7 @@
   font-style: normal;
   src: url('../fonts/RFDewiExpanded-Semibold.woff2') format('woff2'),
        url('../fonts/RFDewiExpanded-Semibold.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face{
@@ -28,6 +31,7 @@
   font-style: normal;
   src: url('../fonts/RFDewiExpanded-Bold.woff2') format('woff2'),
        url('../fonts/RFDewiExpanded-Bold.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face{
@@ -36,6 +40,7 @@
   font-style: normal;
   src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
        url('../fonts/Montserrat-Regular.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face{
@@ -44,6 +49,7 @@
   font-style: italic;
   src: url('../fonts/Montserrat-Italic.woff2') format('woff2'),
        url('../fonts/Montserrat-Italic.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face{
@@ -52,6 +58,7 @@
   font-style: normal;
   src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
        url('../fonts/Montserrat-Medium.woff') format('woff');
+  font-display: swap;
 }
 
 @font-face{
@@ -60,4 +67,5 @@
   font-style: normal;
   src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
        url('../fonts/Montserrat-SemiBold.woff') format('woff');
+  font-display: swap;
 }

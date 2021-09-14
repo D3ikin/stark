@@ -138,7 +138,7 @@
   }
 }
 
-.advantages{
+.benefits{
   &__item{
     .list__item-title{
         @extend %rfdewi-600;
@@ -161,7 +161,7 @@
       height: 107px;
       overflow: hidden;
       object-fit: cover;
-      background-image: url('../images/advantages/4.webp');
+      background-image: url('../images/benefits/4.webp');
       background-repeat: no-repeat;
       margin-bottom: 20px;
     }
