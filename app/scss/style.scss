@@ -1,6 +1,6 @@
-@import 'reset';
 @import 'vars';
 @import 'fonts';
+@import 'reset';
 @import 'global';
 
 .header-top{
@@ -39,7 +39,7 @@
 }
 
 .main-screen{
-  background-image: url('../images/bg/1.png');
+  background-image: url('../images/bg/1.webp');
   background-repeat: no-repeat;
   background-position: center -30px;
   margin-bottom: 130px;
@@ -161,7 +161,7 @@
       height: 107px;
       overflow: hidden;
       object-fit: cover;
-      background-image: url('../images/advantages/4.png');
+      background-image: url('../images/advantages/4.webp');
       background-repeat: no-repeat;
       margin-bottom: 20px;
     }
@@ -174,7 +174,7 @@
   &::before{
     content: '';
     position: absolute;
-    background-image: url('../images/bg/2.png');
+    background-image: url('../images/bg/2.webp');
     background-repeat: no-repeat;
     width: 1100px;
     height: 900px;
@@ -192,7 +192,7 @@
     &::before{
       content: '';
       position: absolute;
-      background-image: url('../images/interface-man1.png');
+      background-image: url('../images/interface-man1.webp');
       width: 186px;
       height: 690px;
       bottom: -50px;
@@ -202,7 +202,7 @@
     &::after{
       content: '';
       position: absolute;
-      background-image: url('../images/interface-man2.png');
+      background-image: url('../images/interface-man2.webp');
       width: 233px;
       height: 690px;
       bottom: -50px;
@@ -220,7 +220,7 @@
   &::before{
     content: '';
     position: absolute;
-    background-image: url('../images/bg/3.png');
+    background-image: url('../images/bg/3.webp');
     background-repeat: no-repeat;
     left: 0;
     right: 0;
@@ -462,7 +462,7 @@
     &::after{
       content: '';
       position: absolute;
-      background-image: url('../images/bg/4.png');
+      background-image: url('../images/bg/4.webp');
       background-repeat: no-repeat;
       width: 134px;
       height: 131px;

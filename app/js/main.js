@@ -12,13 +12,13 @@ $(function(){
 
   $(".header-bottom__list-link").on("click", function (event) {
         event.preventDefault();
-        var id  = $(this).attr('href'),
+        let id  = $(this).attr('href'),
             top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 300);
   });
   
   $('.faq__item-trigger').on('click', function(){
-    $(this).next('.faq__item-content').slideToggle(300);
+    $(this).next('.faq__item-content').slideToggle();
   });
 
 

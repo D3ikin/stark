@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="max-age=3600, must-revalidate">
   <title>Stark</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -58,8 +59,9 @@
   </header>
 
   <main class="main">
-    <div class="container">
-      <section class="main-screen" id="main-screen">
+
+    <section class="main-screen" id="main-screen">
+      <div class="container">
         <div class="main-screen__offer">
           <h1 class="main-screen__title title">
             Продажа уникальной платформы <span>Stark</span>
@@ -85,7 +87,7 @@
             </li>
           </ul>
           <div class="main-screen__image">
-            <img src="images/comp-img.png" alt="">
+            <img src="images/comp-img.webp" alt="картинка компьютера">
           </div>
           <ul class="main-screen__box-list">
             <li class="main-screen__box-item main-screen__box-item--3">
@@ -103,16 +105,20 @@
         <div class="main-screen__btn btn">
           Оставить заявку на покупку
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="why-buy" id="why-buy">
+    <section class="why-buy" id="why-buy">
+      <div class="container">
         <h2 class="why-buy__title title">
           <span class="accent-text">Почему стоит купить</span> платформу Stark
           для торговли на Forex?
         </h2>
         <ul class="list">
           <li class="list__item">
-            <img class="list__item-img" src="images/why-buy/1.png" alt="">
+            <div class="list__item-img">
+              <img src="images/why-buy/1.webp" alt="картинка монетки">
+            </div>
             <h4 class="list__item-title">
               Самая <span class="accent-text">выгодная <br> цена</span> на рынке ПО
             </h4>
@@ -124,7 +130,9 @@
             </p>
           </li>
           <li class="list__item">
-            <img class="list__item-img" src="images/why-buy/2.png" alt="">
+            <div class="list__item-img">
+              <img src="images/why-buy/2.webp" alt="image">
+            </div>
             <h4 class="list__item-title">
               Техподдержка <br>
               в режиме <span class="accent-text">24/7</span>
@@ -136,7 +144,9 @@
             </p>
           </li>
           <li class="list__item">
-            <img class="list__item-img" src="images/why-buy/3.png" alt="">
+            <div class="list__item-img">
+              <img src="images/why-buy/3.webp" alt="image">
+            </div>
             <h4 class="list__item-title">
               <span class="accent-text">До 9 графиков</span> <br>
               в одном окне
@@ -147,7 +157,9 @@
             </p>
           </li>
           <li class="list__item">
-            <img class="list__item-img" src="images/why-buy/4.png" alt="">
+            <div class="list__item-img">
+              <img src="images/why-buy/4.webp" alt="image">
+            </div>
             <h4 class="list__item-title">
               Удаленная <span class="accent-text">установка</span> –
               бесплатно
@@ -158,7 +170,9 @@
             </p>
           </li>
           <li class="list__item">
-            <img class="list__item-img" src="images/why-buy/5.png" alt="">
+            <div class="list__item-img">
+              <img src="images/why-buy/5.webp" alt="image">
+            </div>
             <h4 class="list__item-title">
               <span class="accent-text">Высокое</span><br>
               качество
@@ -169,20 +183,25 @@
             </p>
           </li>
           <li class="list__item">
-            <img class="list__item-img" src="images/why-buy/6.png" alt="">
+            <div class="list__item-img">
+              <img src="images/why-buy/6.webp" alt="image">
+            </div>
             <h4 class="list__item-title">
               Создатели <br>
               – <span class="accent-text">опытные</span> трейдеры
             </h4>
             <p class="list__item-text">
-              Разработчики Stark давно являются участниками рынка Forex, поэтому сделали интерфейс программы максимально
+              Разработчики Stark давно являются участниками рынка Forex, поэтому сделали интерфейс программы
+              максимально
               удобным для
               проведения торгов
             </p>
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
 
+    <div class="container">
       <div class="accent-item">
         <h2 class="accent-item__title title">
           Станьте владельцем
@@ -199,14 +218,19 @@
         <div class="accent-item__btn btn">Оставить заявку на покупку</div>
       </div>
 
-      <section class="advantages" id="advantages">
+    </div>
+
+    <section class="advantages" id="advantages">
+      <div class="container">
         <h2 class="advantages__title title">
           Преимущества <br>
           <span class="accent-text">платформы Stark</span>
         </h2>
         <ul class="list">
           <li class="list__item advantages__item">
-            <img class="list__item-img advantages__item-img" src="images/advantages/1.png" alt="">
+            <div class="list__item-img advantages__item-img">
+              <img src="images/advantages/1.webp" alt="image">
+            </div>
             <h4 class="list__item-title">
               Не имеет аналогов
             </h4>
@@ -216,7 +240,9 @@
             </p>
           </li>
           <li class="list__item advantages__item">
-            <img class="list__item-img advantages__item-img" src="images/advantages/2.png" alt="">
+            <div class="list__item-img advantages__item-img">
+              <img src="images/advantages/2.webp" alt="image">
+            </div>
             <h4 class="list__item-title">
               Регулярные обновления
             </h4>
@@ -226,7 +252,9 @@
             </p>
           </li>
           <li class="list__item advantages__item">
-            <img class="list__item-img advantages__item-img" src="images/advantages/3.png" alt="">
+            <div class="list__item-img advantages__item-img">
+              <img src="images/advantages/3.webp" alt="image">
+            </div>
             <h4 class="list__item-title">
               Удобный интерфейс
             </h4>
@@ -248,7 +276,9 @@
             </p>
           </li>
           <li class="list__item advantages__item">
-            <img class="list__item-img advantages__item-img" src="images/advantages/5.png" alt="">
+            <div class="list__item-img advantages__item-img">
+              <img src="images/advantages/5.webp" alt="image">
+            </div>
             <h4 class="list__item-title">
               Интеграция с другим ПО
             </h4>
@@ -259,7 +289,9 @@
             </p>
           </li>
           <li class="list__item advantages__item">
-            <img class="list__item-img advantages__item-img" src="images/advantages/6.png" alt="">
+            <div class="list__item-img advantages__item-img">
+              <img src="images/advantages/6.webp" alt="image">
+            </div>
             <h4 class="list__item-title">
               Отсутствие рекламы
             </h4>
@@ -269,18 +301,22 @@
             </p>
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
 
-      <section class="interface" id="interface">
+    <section class="interface" id="interface">
+      <div class="container">
         <h2 class="interface__title title">
           <span class="accent-text">Посмотрите, как выглядит интерфейс</span> платформы
           глазами пользователей
         </h2>
         <div class="interface__box">
-          <img class="interface__box-img" src="images/comp-img2.png" alt="">
+          <img class="interface__box-img" src="images/comp-img2.webp" alt="image">
         </div>
-      </section>
+      </div>
+    </section>
 
+    <div class="container">
       <div class="accent-item">
         <h2 class="accent-item__title title">
           <span class="accent-text">
@@ -298,8 +334,10 @@
         </p>
         <div class="accent-item__btn btn">Оставить заявку на покупку</div>
       </div>
+    </div>
 
-      <section class="make-money" id="make-money">
+    <section class="make-money" id="make-money">
+      <div class="container">
         <h2 class="make-money__title title">
           <span class="accent-text">Как вы сможете зарабатывать</span> с помощью платформы Stark?
         </h2>
@@ -337,7 +375,7 @@
             </div>
           </div>
           <div class="make-money__inner-img">
-            <img src="images/mobile-img.png" alt="mobile image">
+            <img src="images/mobile-img.webp" alt="mobile image">
           </div>
           <div class="make-money__inner-part">
             <h4 class="make-money__part-title">
@@ -346,7 +384,7 @@
             </h4>
             <div class="card-item">
               <div class="card-item__box-img">
-                <img src="images/icons/add-group.svg" alt="">
+                <img src="images/icons/add-group.svg" alt="image">
               </div>
               <div class="card-item__content-wrapper">
                 <div class="card-item__title">Наберите группу трейдеров</div>
@@ -360,7 +398,7 @@
             </div>
             <div class="card-item">
               <div class="card-item__box-img">
-                <img src="images/icons/percentage.svg" alt="">
+                <img src="images/icons/percentage.svg" alt="image">
               </div>
               <div class="card-item__content-wrapper">
                 <div class="card-item__title">Получайте % со сделок</div>
@@ -380,9 +418,11 @@
             поскольку она значительно упрощает и ускоряет проведение торгов.
           </p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="result" id="result">
+    <section class="result" id="result">
+      <div class="container">
         <h2 class="result__title title">
           <span class="accent-text">Что получат ваши <br> клиенты
             в результате</span> использования нашей платформы?
@@ -390,7 +430,7 @@
         <ol class="result__list">
           <li class="result__list-item card-item">
             <div class="card-item__box-img">
-              <img src="images/icons/wall-clock.svg" alt="">
+              <img src="images/icons/wall-clock.svg" alt="image">
             </div>
             <p class="result__item-text">
               Экономия времени за счет
@@ -399,7 +439,7 @@
           </li>
           <li class="result__list-item card-item">
             <div class="card-item__box-img">
-              <img src="images/icons/graph1.svg" alt="">
+              <img src="images/icons/graph1.svg" alt="image">
             </div>
             <p class="result__item-text">
               Все графики и портфели
@@ -408,7 +448,7 @@
           </li>
           <li class="result__list-item card-item">
             <div class="card-item__box-img">
-              <img src="images/icons/graph2.svg" alt="">
+              <img src="images/icons/graph2.svg" alt="image">
             </div>
             <p class="result__item-text">
               Возможность наглядно
@@ -417,7 +457,7 @@
           </li>
           <li class="result__list-item card-item">
             <div class="card-item__box-img">
-              <img src="images/icons/smartphone.svg" alt="">
+              <img src="images/icons/smartphone.svg" alt="image">
             </div>
             <p class="result__item-text">
               Удобная мобильная
@@ -426,7 +466,7 @@
           </li>
           <li class="result__list-item card-item">
             <div class="card-item__box-img">
-              <img src="images/icons/key.svg" alt="">
+              <img src="images/icons/key.svg" alt="image">
             </div>
             <p class="result__item-text">
               Доступ ко всем действующим
@@ -435,7 +475,7 @@
           </li>
           <li class="result__list-item card-item">
             <div class="card-item__box-img">
-              <img src="images/icons/click.svg" alt="">
+              <img src="images/icons/click.svg" alt="image">
             </div>
             <p class="result__item-text">
               Интуитивно понятное
@@ -444,7 +484,7 @@
           </li>
           <li class="result__list-item card-item">
             <div class="card-item__box-img">
-              <img src="images/icons/settings.svg" alt="">
+              <img src="images/icons/settings.svg" alt="image">
             </div>
             <p class="result__item-text">
               Настройка всех параметров
@@ -453,7 +493,7 @@
           </li>
           <li class="result__list-item card-item">
             <div class="card-item__box-img">
-              <img src="images/icons/fill.svg" alt="">
+              <img src="images/icons/fill.svg" alt="image">
             </div>
             <p class="result__item-text">
               Оптимальные для зрения
@@ -461,8 +501,10 @@
             </p>
           </li>
         </ol>
-      </section>
+      </div>
+    </section>
 
+    <div class="container">
       <div class="accent-item">
         <h2 class="accent-item__title title">
           <span class="accent-text">
@@ -474,10 +516,14 @@
         </div>
         <div class="accent-item__btn btn">Оставить заявку на покупку</div>
       </div>
+    </div>
 
-      <section class="developers" id="developers">
+    <section class="developers" id="developers">
+      <div class="container">
         <div class="developers__inner">
-          <img class="developers__img" src="images/developer-photo.png" alt="">
+          <div class="developers__img">
+            <img src="images/developer-photo.webp" alt="image">
+          </div>
           <div class="developers__inner-description">
             <h2 class="developers__title title">
               <span class="accent-text">О разработчиках</span>
@@ -522,9 +568,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="function" id="function">
+    <section class="function" id="function">
+      <div class="container">
         <h2 class="function__title title">
           <span class="accent-text">Какие функции</span> <br>
           для пользователей <br>
@@ -534,7 +582,7 @@
           <ul class="function__list">
             <li class="function__list-item">
               <div class="function__item-img card-item__box-img">
-                <img src="images/icons/graph3.svg" alt="">
+                <img src="images/icons/graph3.svg" alt="image">
               </div>
               <p class="function__item-text">
                 Статистика активности по сделкам и портфелю акций;
@@ -542,7 +590,7 @@
             </li>
             <li class="function__list-item">
               <div class="function__item-img card-item__box-img">
-                <img src="images/icons/book.svg" alt="">
+                <img src="images/icons/book.svg" alt="image">
               </div>
               <p class="function__item-text">
                 Текущий P&L, маржа, баланс и капитал;
@@ -550,7 +598,7 @@
             </li>
             <li class="function__list-item">
               <div class="function__item-img card-item__box-img">
-                <img src="images/icons/analitic.svg" alt="">
+                <img src="images/icons/analitic.svg" alt="image">
               </div>
               <p class="function__item-text">
                 Аналитика вашего портфеля акций;
@@ -558,7 +606,7 @@
             </li>
             <li class="function__list-item">
               <div class="function__item-img card-item__box-img">
-                <img src="images/icons/piggy-bank.svg" alt="">
+                <img src="images/icons/piggy-bank.svg" alt="image">
               </div>
               <p class="function__item-text">
                 Котировки акций и валют;
@@ -566,7 +614,7 @@
             </li>
             <li class="function__list-item">
               <div class="function__item-img card-item__box-img">
-                <img src="images/icons/currency.svg" alt="">
+                <img src="images/icons/currency.svg" alt="image">
               </div>
               <p class="function__item-text">
                 Валютные кошельки;
@@ -574,7 +622,7 @@
             </li>
             <li class="function__list-item">
               <div class="function__item-img card-item__box-img">
-                <img src="images/icons/analytics.svg" alt="">
+                <img src="images/icons/analytics.svg" alt="image">
               </div>
               <p class="function__item-text">
                 Аналитика рынка;
@@ -584,7 +632,7 @@
           <ul class="function__list">
             <li class="function__list-item">
               <div class="function__item-img card-item__box-img">
-                <img src="images/icons/pay.svg" alt="">
+                <img src="images/icons/pay.svg" alt="image">
               </div>
               <p class="function__item-text">
                 Внесение депозита, покупка и продажа акций;
@@ -592,7 +640,7 @@
             </li>
             <li class="function__list-item">
               <div class="function__item-img card-item__box-img">
-                <img src="images/icons/pin.svg" alt="">
+                <img src="images/icons/pin.svg" alt="image">
               </div>
               <p class="function__item-text">
                 Отображение всех мировых графиков;
@@ -600,7 +648,7 @@
             </li>
             <li class="function__list-item">
               <div class="function__item-img card-item__box-img">
-                <img src="images/icons/color-palette.svg" alt="">
+                <img src="images/icons/color-palette.svg" alt="image">
               </div>
               <p class="function__item-text">
                 Цветные графики цен активов;
@@ -608,7 +656,7 @@
             </li>
             <li class="function__list-item">
               <div class="function__item-img card-item__box-img">
-                <img src="images/icons/clock.svg" alt="">
+                <img src="images/icons/clock.svg" alt="image">
               </div>
               <p class="function__item-text">
                 Временные таймфреймы;
@@ -616,7 +664,7 @@
             </li>
             <li class="function__list-item">
               <div class="function__item-img card-item__box-img">
-                <img src="images/icons/best-product.svg" alt="">
+                <img src="images/icons/best-product.svg" alt="image">
               </div>
               <p class="function__item-text">
                 Раздел избранных рынков;
@@ -624,7 +672,7 @@
             </li>
             <li class="function__list-item">
               <div class="function__item-img card-item__box-img">
-                <img src="images/icons/desktop.svg" alt="">
+                <img src="images/icons/desktop.svg" alt="image">
               </div>
               <p class="function__item-text">
                 Необходимые утилиты и др.
@@ -632,11 +680,13 @@
             </li>
           </ul>
         </div>
-      </section>
+      </div>
+    </section>
 
+    <div class="container">
       <div class="accent-item accent-item--with-img">
         <div class="accent-item__img">
-          <img src="images/comp-img3.png" alt="">
+          <img src="images/comp-img3.webp" alt="image">
         </div>
         <h2 class="accent-item__title title">
           <span class="accent-text">
@@ -653,8 +703,10 @@
         </div>
         <div class="accent-item__btn btn">Оставить заявку на покупку</div>
       </div>
+    </div>
 
-      <section class="owner" id="owner">
+    <section class="owner" id="owner">
+      <div class="container">
         <h2 class="owner__title title">
           <span class="accent-text">Как стать владельцем платформы Stark</span> <br>
           и начать зарабатывать?
@@ -665,7 +717,7 @@
               Заявка
             </div>
             <div class="owner__item-img">
-              <img src="images/owner/1.png" alt="">
+              <img src="images/owner/1.webp" alt="image">
             </div>
             <p class="owner__item-text">
               Оставьте заявку на сайте, позвоните нам по номеру указать или напишите
@@ -678,7 +730,7 @@
               Консультация
             </div>
             <div class="owner__item-img">
-              <img src="images/owner/2.png" alt="">
+              <img src="images/owner/2.webp" alt="image">
             </div>
             <p class="owner__item-text">
               В ближайшее время с вами свяжется наш менеджер, проконсультирует по
@@ -690,7 +742,7 @@
               Оплата
             </div>
             <div class="owner__item-img">
-              <img src="images/owner/3.png" alt="">
+              <img src="images/owner/3.webp" alt="image">
             </div>
             <p class="owner__item-text">
               Оплатите стоимость платформы Stark любым удобным вам способом – с помощью
@@ -702,7 +754,7 @@
               Получение доступа
             </div>
             <div class="owner__item-img">
-              <img src="images/owner/4.png" alt="">
+              <img src="images/owner/4.webp" alt="image">
             </div>
             <p class="owner__item-text">
               Вы получаете доступ к платформе удобным для вас способом – на электронную почту
@@ -716,7 +768,7 @@
               программы
             </div>
             <div class="owner__item-img">
-              <img src="images/owner/5.png" alt="">
+              <img src="images/owner/5.webp" alt="image">
             </div>
             <p class="owner__item-text">
               Наши специалисты
@@ -731,7 +783,7 @@
               от техподдержки
             </div>
             <div class="owner__item-img">
-              <img src="images/owner/6.svg" alt="">
+              <img src="images/owner/6.svg" alt="image">
             </div>
             <p class="owner__item-text">
               В случае ошибок в работе программы, обратитесь
@@ -745,7 +797,7 @@
               платформы
             </div>
             <div class="owner__item-img">
-              <img src="images/owner/7.png" alt="">
+              <img src="images/owner/7.webp" alt="image">
             </div>
             <p class="owner__item-text">
               Ваши клиенты начнут проводить сделки на платформе. Вы можете расширять
@@ -758,7 +810,7 @@
               прибыли
             </div>
             <div class="owner__item-img">
-              <img src="images/owner/8.png" alt="">
+              <img src="images/owner/8.webp" alt="image">
             </div>
             <p class="owner__item-text">
               С каждой сделки вы будете получать комиссионные проценты, независимо от ее
@@ -766,9 +818,11 @@
             </p>
           </li>
         </ol>
-      </section>
+      </div>
+    </section>
 
-      <section class="faq" id="faq">
+    <section class="faq" id="faq">
+      <div class="container">
         <h2 class="faq__title title">Вопросы – ответы</h2>
         <ol class="faq__list">
           <li class="faq__list-item">
@@ -776,7 +830,8 @@
               Как мои клиенты смогут следить за несколькими графиками одновременно?
             </div>
             <div class="faq__item-content">
-              В интерфейсе программы можно выбрать количество графиков, которые будут одновременно отображаться в одном
+              В интерфейсе программы можно выбрать количество графиков, которые будут одновременно отображаться в
+              одном
               окне – их
               может быть 1, 2, 3, 4, 6 или 9. Это уникальная функция, недоступная ни в одной из аналогичных программ.
               Раньше
@@ -833,14 +888,17 @@
             <div class="faq__item-content">
               В случае, если у вас возникнут сложности при работе с платформой или вы захотите добавить новые функции,
               обратитесь в
-              круглосуточную службу технической поддержки. Для этого позвоните по номеру +7 (999) 140-29-29, напишите на
+              круглосуточную службу технической поддержки. Для этого позвоните по номеру +7 (999) 140-29-29, напишите
+              на
               почту
               support.starktrade.org или в мессенджере Telegram.
             </div>
           </li>
         </ol>
-      </section>
+      </div>
+    </section>
 
+    <div class="container">
       <div class="accent-item">
         <h2 class="accent-item__title title">
           <span class="accent-text">
@@ -853,8 +911,8 @@
         </div>
         <div class="accent-item__btn btn">Оставить заявку на покупку</div>
       </div>
-
     </div>
+
 
     <div class="popup">
       <div class="popup_container">
@@ -894,7 +952,7 @@
     </div>
   </footer>
 
+  <script src="js/main.min.js"></script>
 </body>
-<script src="js/main.min.js"></script>
 
 </html>
