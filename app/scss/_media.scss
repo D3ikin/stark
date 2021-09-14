@@ -153,6 +153,11 @@
   .btn-burger{
     display: block;
     z-index: 10;
+    &::before,
+    &::after,
+    span{
+      transition: .2s;
+    }
   }
   .header-bottom{
     position: absolute;
@@ -160,7 +165,6 @@
     left: 0;
     right: 0;
     border: none;
-    transition: .3s;
     &--active{
       transform: translateY(0);
       position: absolute;
