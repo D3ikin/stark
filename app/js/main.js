@@ -44,6 +44,7 @@ $(function(){
       data: th.serialize()
     }).done(function() {
       $(".popup").fadeOut();
+      $("body").removeClass('popup-active');
     });
     return false;
   });
